@@ -2393,8 +2393,8 @@ a.text-black-400:hover {
 }
 
 .banner {
-  padding-top: 75px;
-  padding-bottom: 160px;
+  padding-top: 150px;
+  padding-bottom: 90px;
   overflow-x: hidden;
 }
 
@@ -2505,8 +2505,8 @@ a.text-black-400:hover {
 }
 
 .page-header {
-  height: 210px;
-  /* padding-bottom: 45px; */
+  padding-top: 118px;
+  padding-bottom: 42px;
 }
 
 .page-header .shape-1 {
@@ -4202,4 +4202,42 @@ footer .needs-validation .btn:hover {
 .protuct-desc{
   font-size: 18px;
     font-weight: 600;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #eee;
+}
+
+.team-image{
+  position: relative;
+  width: 60%;
+  max-width: 300px;
+}
+
+
+.team-overlay {
+  position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 93px 0px;
+    text-align: center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.tm-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.team-image:hover .team-overlay {
+  opacity: 1;
 }
